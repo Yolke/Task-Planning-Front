@@ -1,0 +1,31 @@
+/* src/pages/ListTasks.css */
+
+.list-tasks-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 30%;
+  }
+  
+  .task-card {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease; /* Ajout d'une transition pour une mise à jour fluide */
+  }
+  
+  .task-buttons {
+    margin-top: 10px;
+  }
+  
+  .arrow-button {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
